@@ -37,3 +37,4 @@ class User:
         print("\n=== Live Q&A ===")
         question = input("Ask a question to the agricultural experts: ")
         print(f"Thank you for your question, {user.name}! Our experts will respond shortly.")
+        user.progress["Q&A Sessions"] += 1
