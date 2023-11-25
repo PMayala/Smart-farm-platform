@@ -15,6 +15,30 @@ class User:
              print("Our mission is to empower farmers through education, collaboration, and employment opportunities.")
             print("Let's embark on this journey together!\n")
 
+
+    def start_prompt(self):
+        while True:
+            choice = input("Are you ready to explore Smart Farming? (yes/no): ").lower()
+
+            if choice == "yes":
+                print("\nGreat! Let's get started.")
+                break
+            elif choice == "no":
+                print("Alright, feel free to return whenever you're ready.")
+                exit()
+            else:
+                print("Invalid input. Please enter 'yes' or 'no'.\n")
+
+    def display_dashboard(self):
+        print("\n=== Smart Farming Dashboard ===")
+        print("1. Educational Modules")
+        print("2. Live Q&A")
+        print("3. Job Portal")
+        print("4. Check Progress")
+        print("5. Notifications")
+        print("6. Exit")
+
+
     def educational_module(self, user):
         print("\n=== Educational Modules ===")
         print("1. Modern Farming Techniques")
