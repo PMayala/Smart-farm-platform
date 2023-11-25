@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+# In SmartFarmingPlatform.py
+
+class SmartFarmingPlatform:                  
+    def __init__(self):
+        # existing code… _Plamedi
+
+    def introduction(self, name, occupation):
+        print(f"Welcome to the Smart Farming Platform, {name}!")
+        print("Our mission is to empower farmers through education, collaboration, and employment opportunities.")
+        print(f"As a {occupation}, your contributions are valuable.")
+        print("Let's embark on this journey together!\n")
+
+# Creating an instance of SmartFarmingPlatform
+my_platform = SmartFarmingPlatform()
+
+# Calling the introduction method with your information
+my_name = "Your Name"  # Replace 'Your Name' with your actual name
+my_occupation = "Farmer"  # Replace 'Farmer' with your actual occupation or role
+my_platform.introduction(my_name, my_occupation)
