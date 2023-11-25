@@ -71,14 +71,14 @@ class SmartFarmingPlatform:
         choice = input("Enter the number of the job you want to apply for: ")
 
         if choice in ["1", "2"]:
-            print(f"Congratulations, {user.name}! You've applied for a job. Good luck!")
+            print(f"Congratulations! You've applied for a job. Good luck!")
             user.progress["Job Applications"] += 1
         else:
             print("Invalid choice. Please enter a valid job number.")
 
     def check_progress(self, user):
         print("\n=== Progress Tracking ===")
-        print(f"Hello {user.name}! Your progress so far:")
+        print(f"Hello! Your progress so far:")
         for category, progress in user.progress.items():
             print(f"{category}: {progress}")
 
@@ -109,7 +109,7 @@ class SmartFarmingPlatform:
           elif choice == "5":
               self.display_notifications()
           elif choice == "6":
-              print(f"Thank you, {user.name}, for exploring Smart Farming. Have a great day!")
+              print(f"Thank you, for exploring Smart Farming. Have a great day!")
               break
           else:
               print("Invalid choice. Please enter a number from 1 to 6.\n")
