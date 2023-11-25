@@ -36,3 +36,4 @@ class User:
     def qna_interaction(self, user):
         print("\n=== Live Q&A ===")
         question = input("Ask a question to the agricultural experts: ")
+        print(f"Thank you for your question, {user.name}! Our experts will respond shortly.")
