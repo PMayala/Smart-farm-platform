@@ -34,4 +34,4 @@ class User:
             print("Invalid choice. Please enter a valid module number.")
 
     def qna_interaction(self, user):
-
+        print("\n=== Live Q&A ===")
