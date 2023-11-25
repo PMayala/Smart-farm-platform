@@ -87,7 +87,6 @@ class SmartFarmingPlatform:
         for notification in self.notifications:
             print(notification)
 
-
     def main(self):
       self.introduction()
       self.start_prompt()
