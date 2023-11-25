@@ -5,7 +5,7 @@ class User:
         self.name = name
         self.progress = {"Educational Modules": 0, "Q&A Sessions": 0, "Job Applications": 0}
 
-    class SmartFarmingPlatform:
+class SmartFarmingPlatform:
     def __init__(self):
         self.users = {}
         self.notifications = []
