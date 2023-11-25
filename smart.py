@@ -33,4 +33,5 @@ class User:
         else:
             print("Invalid choice. Please enter a valid module number.")
 
+    def qna_interaction(self, user):
 
