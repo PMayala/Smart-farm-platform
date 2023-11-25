@@ -13,7 +13,7 @@ class SmartFarmingPlatform:
     def introduction(self):
              print("Welcome to the Smart Farming Platform!")
              print("Our mission is to empower farmers through education, collaboration, and employment opportunities.")
-            print("Let's embark on this journey together!\n")
+             print("Let's embark on this journey together!\n")
 
 
     def start_prompt(self):
