@@ -5,13 +5,17 @@ class User:
         self.name = name
         self.progress = {"Educational Modules": 0, "Q&A Sessions": 0, "Job Applications": 0}
 
+    class SmartFarmingPlatform:
+    def __init__(self):
+        self.users = {}
+        self.notifications = []
 
-         def introduction(self):
+    def introduction(self):
              print("Welcome to the Smart Farming Platform!")
              print("Our mission is to empower farmers through education, collaboration, and employment opportunities.")
             print("Let's embark on this journey together!\n")
 
-            def educational_module(self, user):
+    def educational_module(self, user):
         print("\n=== Educational Modules ===")
         print("1. Modern Farming Techniques")
         print("2. Sustainable Practices")
@@ -50,4 +54,6 @@ class User:
         else:
             print("Invalid choice. Please enter a valid job number.")
 
-    
+    if __name__ == "__main__":
+    platform = SmartFarmingPlatform()
+    platform.main()
