@@ -38,3 +38,9 @@ class User:
         question = input("Ask a question to the agricultural experts: ")
         print(f"Thank you for your question, {user.name}! Our experts will respond shortly.")
         user.progress["Q&A Sessions"] += 1
+         def job_portal(self, user):
+        print("\n=== Job Portal ===")
+        print("1. Agricultural Specialist - Company A")
+        print("2. Farm Manager - Company B")
+        choice = input("Enter the number of the job you want to apply for: ")
+
