@@ -25,3 +25,4 @@ class SmartFarmingPlatform:
     def register_user(self, username, password):
         with self.db_connection:
             cursor = self.db_connection.cursor()
+            cursor.execute('INSERT INTO users (username, password) VALUES (?, ?)', (username, password))
