@@ -31,3 +31,4 @@ class SmartFarmingPlatform:
          with self.db_connection:
              cursor = self.db_connection.cursor()
              cursor.execute('SELECT * FROM users WHERE username=? AND password=?', (username, password))
+             user_data = cursor.fetchone()
