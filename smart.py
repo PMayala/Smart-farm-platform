@@ -21,3 +21,5 @@ class SmartFarmingPlatform:
                	password TEXT NOT NULL
            	)
        	''')
+
+    def register_user(self, username, password):
