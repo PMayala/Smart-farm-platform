@@ -28,3 +28,4 @@ class SmartFarmingPlatform:
             cursor.execute('INSERT INTO users (username, password) VALUES (?, ?)', (username, password))
 
      def authenticate_user(self, username, password):
+         with self.db_connection:
