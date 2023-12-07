@@ -49,14 +49,14 @@ python3 smart.py
 - Type `no`
 - Enter username
 - Create password
-  ![01](https://github.com/PMayala/Smart-farm-platform/assets/112552126/b8f89f70-8715-4f2f-968b-4521aada0c00)
+![02](https://github.com/PMayala/Smart-farm-platform/assets/112552126/a242ece2-f4a1-455e-8284-2d79fa76b7f3)
   
 3.  **Login to account for existing user**
 - Run the `smart.py`
 - Type `yes`
 - Enter username
 - Enter password
-![02](https://github.com/PMayala/Smart-farm-platform/assets/112552126/a242ece2-f4a1-455e-8284-2d79fa76b7f3)
+![03](https://github.com/PMayala/Smart-farm-platform/assets/112552126/00ba95df-8092-466b-8758-1435e209e806)
   
 4.  **To access Educational Modules**
 - Once logged in 
