@@ -55,4 +55,30 @@ class SmartFarmingPlatform:
    	else:
        	print("Invalid input. Please enter 'yes' or 'no'.\n")
        	exit()
+    def main(self):
+   	self.introduction()
+   	username = self.start_prompt()
+   	if username not in self.users:
+       	self.users[username] = User(username, username)
+   	user = self.users[username]
+        while True:
+       	self.display_dashboard()
+       	choice = input("\nEnter the number of your choice:")
+       	if choice == "1":
+           	self.educational_module(user)
+       	elif choice == "2":
+           	self.qna_interaction(user)
+       	elif choice == "3":
+           	self.job_portal(user)
+       	elif choice == "4":
+           	self.check_progress(user)
+       	elif choice == "5":
+           	self.display_notifications()
+       	elif choice == "6":
+           	print(f"Thank you for exploring our Smart Farming Platform. Have a great day!")
+           	break
+       	else:
+           	print("Invalid choice. Please enter a number from 1 to 6.\n")
+   
+
 
