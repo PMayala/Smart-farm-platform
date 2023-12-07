@@ -11,6 +11,7 @@ The Smart Farm Platform is a comprehensive Python application designed to revolu
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
+- [Contributors](#contributors)
 
 ## Features
 
@@ -70,3 +71,10 @@ python3 smart.py
 
 9.  **To exit the platform**
 
+## Contributors
+1. [Yusuf Molumo](https://github.com/yusufmolumo)
+2. [Plamedi Mayala](https://github.com/PMayala)
+3. [Lina Iratwe](https://github.com/Ms-Lina)
+4. [Joan Keza](https://github.com/jkeza1)
+5. [Khalid Abdillahi](https://github.com/Khaalid245)
+6. [Clinton Pikita](https://github.com/Clint07-datascientist)
