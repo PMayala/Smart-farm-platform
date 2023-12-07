@@ -34,11 +34,29 @@ The Smart Farm Platform is a comprehensive Python application designed to revolu
    ```bash
    git clone https://github.com/PMayala/Smart-farm-platform.git
    cd Smart-farm-platform
+   ```
 
 ### Usage 
 
-Run the Smart Farm Platform:
+1. **Run the Smart Farm Platform:**
 
 ```bash
+python3 smart.py
+```
 
-python smart_farm_platform.py
+2. **Create an account for a new user:**
+
+3.  **Login to account for existing user**
+
+4.  **To access Educational Modules**
+
+5.  **For live Q&A session**
+
+6.  **To access the job portal**
+
+7.  **To check progress**
+
+8.  **To see notifications**
+
+9.  **To exit the platform**
+
