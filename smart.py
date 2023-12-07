@@ -23,3 +23,4 @@ class SmartFarmingPlatform:
        	''')
 
     def register_user(self, username, password):
+        with self.db_connection:
