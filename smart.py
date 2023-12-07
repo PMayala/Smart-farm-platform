@@ -79,6 +79,7 @@ class SmartFarmingPlatform:
            	break
        	else:
            	print("Invalid choice. Please enter a number from 1 to 6.\n")
-   
-
+if __name__ == "__main__":
+	platform = SmartFarmingPlatform()
+	platform.main()
 
