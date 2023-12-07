@@ -46,5 +46,13 @@ class SmartFarmingPlatform:
        	else:
            	print("Invalid credentials. Please try again.\n")
            	exit()
-
+        elif choice == "no":
+       	username = input("Enter a username: ")
+       	password = input("Create a password: ")
+       	self.register_user(username, password)
+       	print("Registration successful! You can now log in.")
+       	return username
+   	else:
+       	print("Invalid input. Please enter 'yes' or 'no'.\n")
+       	exit()
 
