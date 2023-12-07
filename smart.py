@@ -13,8 +13,8 @@ class SmartFarmingPlatform:
 
     def create_tables(self):
    	with self.db_connection:
-       	cursor = self.db_connection.cursor()
-       	cursor.execute('''
+       	    cursor = self.db_connection.cursor()
+       	    cursor.execute('''
            	CREATE TABLE IF NOT EXISTS users (
                	id INTEGER PRIMARY KEY AUTOINCREMENT,
                	username TEXT NOT NULL,
