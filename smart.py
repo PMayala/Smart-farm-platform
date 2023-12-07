@@ -1,7 +1,6 @@
 import sqlite3
- class User:
-def __init__(self,  user_id, name):
-    self.user
-
-
-    def authenticate_user(self, username, password):
+class User:
+    def __init__(self, user_id, name):
+       	self.user_id = user_id
+       	self.name = name
+       	self.progress = {"Educational Modules": 0, "Q&A Sessions": 0, "Job Applications": 0}
