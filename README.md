@@ -45,11 +45,19 @@ python3 smart.py
 ```
 
 2. **Create an account for a new user:**
-
+- Run the smart.py
+- Type no
+- Enter username
+- Create password
+  
 3.  **Login to account for existing user**
-
+- Run the smart.py
+- Type yes
+- Enter username
+- Enter password
+  
 4.  **To access Educational Modules**
-
+- Once logged in 
 5.  **For live Q&A session**
 
 6.  **To access the job portal**
