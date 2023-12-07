@@ -27,9 +27,24 @@ class SmartFarmingPlatform:
             cursor = self.db_connection.cursor()
             cursor.execute('INSERT INTO users (username, password) VALUES (?, ?)', (username, password))
 
-     def authenticate_user(self, username, password):
+    def authenticate_user(self, username, password):
          with self.db_connection:
              cursor = self.db_connection.cursor()
              cursor.execute('SELECT * FROM users WHERE username=? AND password=?', (username, password))
              user_data = cursor.fetchone()
              return user_data is not None
+
+    def start_prompt(self):
+   	choice = input("Are you a registered user? (yes/no): ").lower()
+
+   	if choice == "yes":
+       	username = input("Enter your username: ")
+       	password = input("Enter your password: ")
+       	if self.authenticate_user(username, password):
+           	print(f"\nWelcome back, {username}!")
+           	return username
+       	else:
+           	print("Invalid credentials. Please try again.\n")
+           	exit()
+
+
