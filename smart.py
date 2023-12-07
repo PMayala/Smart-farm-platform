@@ -1,10 +1,14 @@
-import sqlite3
+iimport sqlite3
 class User:
 def __init__(self,  user_id, name):
     self.user_id = user_id
     self.name
  def start_prompt(self):
    	choice = input("Are you a registered user? (yes/no): ").lower()
+   def register_user(self, username, password):
+   	with self.db_connection:
+       	cursor = self.db_connection.cursor()
+       	cursor.execute('INSERT INTO users (username, password) VALUES (?, ?)', (username, password))
 
    	if choice == "yes":
        	username = input("Enter your username: ")
