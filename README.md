@@ -44,18 +44,19 @@ The Smart Farm Platform is a comprehensive Python application designed to revolu
 ```bash
 python3 smart.py
 ```
+![01](https://github.com/PMayala/Smart-farm-platform/assets/112552126/c8fb71c2-28cd-4d9e-94c5-f51dc06025d8)
 
 2. **Create an account for a new user:**
 - Run the `smart.py`
 - Type `no`
-- Enter username
+- Enter Username
 - Create password
 ![02](https://github.com/PMayala/Smart-farm-platform/assets/112552126/a242ece2-f4a1-455e-8284-2d79fa76b7f3)
   
 3.  **Login to account for existing user**
 - Run the `smart.py`
 - Type `yes`
-- Enter username
+- Enter Username
 - Enter password
 ![03](https://github.com/PMayala/Smart-farm-platform/assets/112552126/00ba95df-8092-466b-8758-1435e209e806)
   
