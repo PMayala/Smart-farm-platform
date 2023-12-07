@@ -45,16 +45,18 @@ python3 smart.py
 ```
 
 2. **Create an account for a new user:**
-- Run the smart.py
-- Type no
+- Run the `smart.py`
+- Type `no`
 - Enter username
 - Create password
+  ![01](https://github.com/PMayala/Smart-farm-platform/assets/112552126/b8f89f70-8715-4f2f-968b-4521aada0c00)
   
 3.  **Login to account for existing user**
-- Run the smart.py
-- Type yes
+- Run the `smart.py`
+- Type `yes`
 - Enter username
 - Enter password
+![02](https://github.com/PMayala/Smart-farm-platform/assets/112552126/a242ece2-f4a1-455e-8284-2d79fa76b7f3)
   
 4.  **To access Educational Modules**
 - Once logged in 
